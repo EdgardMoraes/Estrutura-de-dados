@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char const *argv[])
+{
+int x;
+int *y;
+
+printf("Informe o valor para a variável x: \n");
+scanf ("%d", &x);
+
+y = &x;
+*y = 12;
+
+y = y + 1;
+
+*y = *y + 5;
+
+printf ("O valor da váriavel x é: %d\n", x);
+
+
+return 0;
+}
+
+-----------------------------------------------------------------------------------------------------
+
+edgardmoraes@edgardmoraes:~/Dev/Estudos/Estrutura de dados$ gcc Atividade1.c -o Atividade1
+edgardmoraes@edgardmoraes:~/Dev/Estudos/Estrutura de dados$ ./Atividade1 
+Informe o valor para a variável x: 
+25
+O valor da váriavel x é: 12

@@ -1,0 +1,7 @@
+// compilando e rodando no terminal
+Para compilar o programa em c use gcc nome do arquivo -o nome do arquivo. 
+Depois execute o arquivo compilado no terminal ./nomedoarquivo
+
+
+
+
